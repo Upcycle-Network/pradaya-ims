@@ -1,5 +1,5 @@
 <script>
     let { children } = $props();
-    import "../css/styles.css";
+    import "../styles.css";
   </script>
   {@render children()}

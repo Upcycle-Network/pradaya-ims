@@ -1,8 +1,0 @@
-{
-  "files": [],
-  "references": [
-    { "path": "./tsconfig.home.json" },
-    { "path": "./tsconfig.node.json" }        
-  ],
-  "extends": "@tsconfig/svelte/tsconfig.json",
-}
