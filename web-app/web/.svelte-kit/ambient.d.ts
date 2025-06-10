@@ -49,6 +49,8 @@ declare module '$env/static/private' {
 	export const DriverData: string;
 	export const ExtensionSdkDir: string;
 	export const EXTERNAL_INCLUDE: string;
+	export const FPS_BROWSER_APP_PROFILE_STRING: string;
+	export const FPS_BROWSER_USER_PROFILE_STRING: string;
 	export const Framework40Version: string;
 	export const FrameworkDir: string;
 	export const FrameworkDir32: string;
@@ -85,7 +87,7 @@ declare module '$env/static/private' {
 	export const OneDriveConsumer: string;
 	export const ORIGINAL_XDG_CURRENT_DESKTOP: string;
 	export const OS: string;
-	export const PATH: string;
+	export const Path: string;
 	export const PATHEXT: string;
 	export const POWERSHELL_DISTRIBUTION_CHANNEL: string;
 	export const PROCESSOR_ARCHITECTURE: string;
@@ -113,7 +115,6 @@ declare module '$env/static/private' {
 	export const USERDOMAIN_ROAMINGPROFILE: string;
 	export const USERNAME: string;
 	export const USERPROFILE: string;
-	export const VBOX_MSI_INSTALL_PATH: string;
 	export const VCIDEInstallDir: string;
 	export const VCINSTALLDIR: string;
 	export const VCToolsInstallDir: string;
@@ -198,6 +199,8 @@ declare module '$env/dynamic/private' {
 		DriverData: string;
 		ExtensionSdkDir: string;
 		EXTERNAL_INCLUDE: string;
+		FPS_BROWSER_APP_PROFILE_STRING: string;
+		FPS_BROWSER_USER_PROFILE_STRING: string;
 		Framework40Version: string;
 		FrameworkDir: string;
 		FrameworkDir32: string;
@@ -234,7 +237,7 @@ declare module '$env/dynamic/private' {
 		OneDriveConsumer: string;
 		ORIGINAL_XDG_CURRENT_DESKTOP: string;
 		OS: string;
-		PATH: string;
+		Path: string;
 		PATHEXT: string;
 		POWERSHELL_DISTRIBUTION_CHANNEL: string;
 		PROCESSOR_ARCHITECTURE: string;
@@ -262,7 +265,6 @@ declare module '$env/dynamic/private' {
 		USERDOMAIN_ROAMINGPROFILE: string;
 		USERNAME: string;
 		USERPROFILE: string;
-		VBOX_MSI_INSTALL_PATH: string;
 		VCIDEInstallDir: string;
 		VCINSTALLDIR: string;
 		VCToolsInstallDir: string;
